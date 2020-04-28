@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Average Calculator</string>
+    <string name="txt_physics">Physics</string>
+    <string name="txt_mathematics">Mathematics</string>
+    <string name="txt_chemistry">Chemistry</string>
+    <string name="tv_result">Student Status</string>
+    <string name="button">Evaluate</string>
 </resources>

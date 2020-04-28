@@ -14,10 +14,11 @@
         android:layout_marginLeft="92dp"
         android:layout_marginTop="92dp"
         android:ems="10"
-        android:hint="Physical"
+        android:hint="@string/txt_physics"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/txt_subject2"
@@ -27,10 +28,11 @@
         android:layout_marginLeft="92dp"
         android:layout_marginTop="60dp"
         android:ems="10"
-        android:hint="Mathematics "
+        android:hint="@string/txt_mathematics"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_subject1" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_subject1"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/txt_subject3"
@@ -40,10 +42,11 @@
         android:layout_marginLeft="92dp"
         android:layout_marginTop="60dp"
         android:ems="10"
-        android:hint="Chemistry"
+        android:hint="@string/txt_chemistry"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_subject2" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_subject2"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button"
@@ -53,7 +56,7 @@
         android:layout_marginLeft="148dp"
         android:layout_marginTop="56dp"
         android:onClick="status"
-        android:text="Evaluate"
+        android:text="@string/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_subject3" />
 
@@ -65,7 +68,7 @@
         android:layout_marginLeft="96dp"
         android:layout_marginTop="52dp"
         android:gravity="center"
-        android:text="Student Status"
+        android:text="@string/tv_result"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
